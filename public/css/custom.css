@@ -1,0 +1,48 @@
+.select2-container {
+    z-index: 9999999999;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    background-color: transparent;
+    color: #222;
+    padding: 8px 30px 8px 20px;
+}
+
+.images_view .mfile {
+    float: left;
+    margin-bottom: 9px;
+    position: relative;
+}
+.images_view  .mfile a {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    background: #f00;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.images_view  .mfile a .fa{
+    color:#fff;
+}
+.images_view  .mfile img{
+    object-fit: cover;
+    height:100px;
+}
+.removeRowGroup{
+	position: absolute;
+    top: 0;
+    right: 16px;
+}
+.removeRow, .addRowBtn{
+	padding: 7px 19px;
+}
+.attr_tax_percentage{
+    width: 36px;
+    position: absolute;
+    right: 15px;
+    top: 29px;
+    height: 36px;
+}

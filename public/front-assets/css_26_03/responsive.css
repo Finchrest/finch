@@ -1,0 +1,617 @@
+@media(max-width: 1500px){
+     .fbBeerOrderMenus .container {
+         max-width: 70%;
+    }
+}
+ @media(min-width: 1500px){
+     .ResourcesBoxes.card-columns {
+         -webkit-column-count: 8;
+         -moz-column-count: 8;
+         column-count: 8;
+         column-gap: 30px;
+    }
+}
+ @media(min-width: 1550px){
+     section#fbFindLocation {
+         min-height: 550px;
+    }
+     .fbWitWizard {
+         height: 900px;
+    }
+     .GoCheckNow .onOrder {
+         font-size: var(--32);
+         line-height: var(--32);
+    }
+     .fbColSet {
+         padding: 40px 70px;
+    }
+     .ValueProposition .container-fluid {
+         max-width: 1600px;
+    }
+     .FoodBeerDetailsHere {
+         max-width: 80%;
+    }
+}
+ @media(min-width: 1800px){
+     section#fbFindLocation {
+         min-height: 650px;
+    }
+}
+@media(max-width: 1300px){
+     .navBarInMobile .nav-item a {
+         font-size: 14px;
+    }
+}
+ @media(max-width: 1200px){
+     .fbBestPlacer .PrimePlacesImg img {
+         min-width: auto;
+         min-height: auto;
+    }
+     .fbLocateCenter {
+         max-width: 95%;
+    }
+     .fbWidthSet {
+         max-width: 100%;
+         padding-left: 0%;
+    }
+     .ValueProposition .container-fluid {
+         max-width: 100%;
+    }
+     .fbColSet {
+         padding: 30px 30px;
+    }
+     .fbBeerOrderMenus .container {
+         max-width: 85%;
+    }
+     .fbBeerNav {
+         padding: 15px 0;
+    }
+     .fbShareLists {
+         display: block;
+         padding: 50px;
+    }
+     .fbShareLists a {
+         display: none;
+         width: calc(33% - 2px);
+         position: relative;
+         z-index: 1;
+    }
+     .fbShareLists a:nth-child(1),.fbShareLists a:nth-child(2),.fbShareLists a:nth-child(3),.fbShareLists a:nth-child(4),.fbShareLists a:nth-child(5),.fbShareLists a:nth-child(6),.fbShareLists a:nth-child(7),.fbShareLists a:nth-child(8),.fbShareLists a:nth-child(9){
+         display: inline-block;
+    }
+     .ResourcesBoxes a {
+         width: 19%;
+         margin: 4px;
+    }
+     .odrImg img {
+         max-height: 210px;
+    }
+     /*.instaFeedDetails .fbTasteBest img {
+         max-height: 285px;
+         min-height: 285px;
+    }*/
+    .fbFoodLists.gallery a.big {
+        width: 32%;
+    }
+    .navBarInMobile .nav-item a {
+         font-size: 13px;
+         padding: 0px 5px !important;
+    }
+}
+ @media(max-width: 991px){
+     .fbMiddleData,.fbRightData,.fbLeftData{
+         width: 100%;
+    }
+     .GlassList li {
+         width: 85px;
+    }
+     .fbLeftData .row,.fbLeftData .fbbrDetails2,.fbLeftData h6,.OverLyImg,div#collapsibleNavbar,.d-none-mob{
+         display: none !important;
+    }
+     .fbLeftData {
+         text-align: center;
+         padding: 25px 0px 0px;
+    }
+     section#IndulgeFood {
+         background-size: 100%;
+    }
+     .fbWitWizard {
+         height: auto;
+    }
+     .fbBeerNav a.navbar-brand {
+         width: 100%;
+         text-align: center;
+         margin: 0;
+    }
+     .FinchMegaCafe .row,.fbFinchMegaFood .row {
+         justify-content: space-around;
+    }
+     .fbBeerOrderMenus .container {
+         max-width: 95%;
+    }
+     .FoodBeerDetailsHere .fbWidthSet {
+         padding-left: 0;
+    }
+     .FoodBeerDetailsHere .FoodDetailsForm {
+         margin: 0px auto;
+    }
+     ul.navbar-nav.d-mob-block {
+         position: absolute;
+         right: -10px;
+         top: 5px;
+         flex-direction: row;
+    }
+     .userProfile .dropdown-menu,.btn-cart-menu div#cart_data {
+         position: absolute;
+         right: 0;
+         left: unset;
+    }
+     .userProfile .dropdown-menu:before {
+         right: 15px;
+         left: unset;
+    }
+     .btn-cart-menu div#cart_data {
+         right: -30px !important;
+    }
+     ul.navbar-nav.d-mob-block button {
+         padding: 5px;
+         margin: 0px 3px;
+         position: relative;
+         z-index: 11111;
+    }
+     ul.navbar-nav.d-mob-block button.dropdown-toggle::after{
+         display: none;
+    }
+     .myAllOrderPage .myOrderTables.YOurHistory .TableThree tr th, .myAllOrderPage .myOrderTables.YOurHistory .TableThree tr td {
+         width: 110px !important;
+    }
+     .myAllOrderPage .myOrderTables.YOurHistory .TableThree tr th:first-child, .myAllOrderPage .myOrderTables.YOurHistory .TableThree tr td:first-child {
+         width: 36% !important;
+    }
+     .myorderModal .myOrderTables.YOurHistory .width_set {
+         width: 160px!important;
+         text-align: left !important;
+    }
+     .myorderModal .myOrderTables.YOurHistory .widthSet2 {
+         width: 75% !important;
+    }
+     span.badge.cart_count {
+         left: 9px;
+         padding: 2px;
+         font-size: 8px;
+         min-width: 15px;
+         min-height: 15px;
+         line-height: 11px;
+         top: -2px;
+    }
+     .ResourcesBoxes a {
+         width: 23.7%;
+    }
+     .cnfrmData {
+         max-width: 575px !important;
+    }
+     .FooterNav {
+         bottom: 0;
+         right: 0;
+         left: 0;
+         background-color: #0a2240;
+         z-index: 99;
+         box-shadow: 0px 0px 10px gray;
+    }
+     .navBarInMobile {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         padding: 10px;
+    }
+     .navBarInMobile a.nav-link {
+         padding: 0;
+    }
+    /* .instaFeedDetails .fbTasteBest img {
+         max-height: 350px;
+         min-height: 350px;
+    }*/
+    .fbFoodLists.gallery a.big {
+    width: 31.5%;
+}
+.navBarInMobile .nav-item a {
+         font-size: 13px;
+         padding: 0px 0px !important;
+    }
+}
+ @media(max-width: 767px){
+     .fbFtrImage,button.navbar-toggler,.HideOnMob{
+         display: none;
+    }
+     .IndulgeFood, .fbBeerFooter, .ValueProposition, .ValuePropositionDetails {
+         padding: 100px 0px !important;
+    }
+     section#IndulgeFood {
+         background-image: unset;
+    }
+     .ResourcesBoxes a {
+         width: 31.6%;
+    }
+     .fbOverlayImage {
+         padding-top: 150px !important;
+    }
+     .fbOrderDetails .col-md-5 {
+         padding: 0;
+    }
+     .odrImg img {
+         min-height: auto;
+         border-radius: 10px;
+    }
+     .AddMoreBtn .onOrder2 {
+         min-width: 60px;
+    }
+     .MngeQuntity .onOrder2 {
+         min-width: 45px;
+         line-height: 10px;
+         padding: 5px 6px 4px;
+    }
+     header#fbBeerHeader {
+         position: relative;
+    }
+     .ValueProposition{
+         padding: 50px 0px !important;
+    }
+     .FbFinchBrefCafe {
+         padding: 20px 0px 50px;
+    }
+     .FbFinchBrefCafe h3 {
+         padding: 30px 0px;
+    }
+     .FbFinchBrefCafe ul {
+         padding: 30px 0px 0px 20px;
+    }
+     .FoodBeerDetailsHere .fbMiddleData img {
+         max-height: 300px;
+    }
+     .fbHomeBanner .carousel-inner .carousel-item img {
+         height: 500px;
+    }
+     .owl-nav button {
+         position: absolute;
+         height: 100%;
+         top: 0px;
+         width: 30px;
+         text-align: center;
+         color: #fff !important;
+         margin: 0 !important;
+         background-color: #ffffff4a !important;
+         border-radius: 0 !important;
+         outline: 0px !important;
+         box-shadow: none !important;
+         font-size: 50px !important;
+    }
+     .owl-nav button.owl-prev {
+         left: 0px;
+    }
+     .owl-nav button.owl-next {
+         right: 0px;
+    }
+     .PrimePlaces .fbBestPlacer {
+         padding-bottom: 10px;
+         border-bottom: 1px solid #777777;
+    }
+     .myPassportPage .myOrderTables.YOurHistory .TableThree.checkout-table tbody tr td:first-child, .myPassportPage .myOrderTables.YOurHistory .TableThree.checkout-table thead tr th:first-child {
+         width: 160px;
+         word-break: break-all;
+    }
+     .myPassportPage .myOrderTables.YOurHistory .TableThree.checkout-table tbody tr td:nth-child(4), .myPassportPage .myOrderTables.YOurHistory .TableThree.checkout-table thead tr th:nth-child(4) {
+         width: 170px;
+    }
+     .myPassportPage .myOrderTables.YOurHistory .TableThree tr th, .myPassportPage .myOrderTables.YOurHistory .TableThree tr td {
+         width: 30%;
+    }
+     .myOrderTables.YOurHistory .TableThree {
+         margin: 0px;
+         min-width: 900px;
+    }
+     div#productModal .modal-dialog {
+         width: 100%;
+         min-width: 100%;
+         max-width: 96% !important;
+    }
+     .myAllOrderPage .myOrderTables.YOurHistory .TableThree {
+         margin: 0px;
+         min-width: 700px;
+    }
+     .OrderModalInside .OrderShowModal .modal-content {
+         width: 100% !important;
+    }
+     .cnfrmData {
+         max-width: 415px !important;
+    }
+     /*.instaFeedDetails .fbTasteBest img {
+         max-height: 240px;
+         min-height: 240px;
+    }*/
+     .fbFinchInstaFeedDetails .owl-nav {
+         /*position: fixed;*/
+         bottom: 0;
+         right: 0;
+         left: 0;
+         z-index: 111;
+    }
+    .fbFoodLists.gallery a.big {
+    width: 47.7%;
+}
+.fbBeerPassport .col-md-4 {
+    position: static;
+}
+.fbBeerPassport .fbFtrImage {
+    display: block;
+    position: absolute;
+    bottom: 190px;
+    right: 10px;
+    text-align: right;
+    z-index: 9;
+}
+.fbBeerPassport .col-md-4 .fbFtrImage img {
+    max-width: 200px;
+}
+}
+ @media(max-width: 575px){
+     .p-4 {
+         padding: 1rem!important;
+    }
+     .ResourcesBoxes a {
+         width: 46.6%;
+         margin-bottom: 15px;
+    }
+     .GlassList .fbicon1 img {
+         max-height: 35px;
+         margin-bottom: 10px;
+    }
+     .fbMiddleData img {
+         max-height: 350px;
+    }
+     .fbOrderDetails .HideInMob p {
+         display: none !important;
+    }
+     .MngeQuntity{
+         font-size: var(--12);
+    }
+     .MngeQuntity input.qty,.FoodDetailsForm .QuntityCount .MngeQuntity .onOrder {
+         height: 25px;
+    }
+     .ShowInMob {
+         display: block;
+         padding-top: 12px;
+    }
+     .fbOrderDetails .col-3 {
+         padding: 0;
+    }
+     .AddMoreBtn {
+         right: 0px;
+    }
+     .fbOrderDetails:before {
+         position: absolute;
+         content: "";
+         border-bottom: 1px solid #808080;
+         bottom: 0;
+         width: calc(100% + 30px);
+         right: -15px;
+         left: -15px;
+    }
+     .fbOrderDetails {
+         position: relative;
+         border: 0;
+    }
+     .fbOrderDetails h5 {
+         padding-top: 0px;
+    }
+     .GoCheckNow .onOrder,.GrabBtn1 .onOrder2 {
+         min-width: 100%;
+    }
+     .modal-content button.close {
+         right: 0px;
+         padding: 0px;
+         top: 0px;
+         width: 20px;
+         height: 20px;
+         margin:0px;
+    }
+     .OrderShowModal .modal-dialog {
+         max-width: 95%;
+    }
+     .FoodDetailsForm .QuntityCount .MngeQuntity input.qty {
+         width: 58%;
+         margin: 0 10px;
+    }
+     .fbColSet {
+         padding: 20px 20px !important;
+    }
+     .fbFinchMegaFood {
+         padding: 30px 0px;
+    }
+     .AreYouReady {
+         padding: 50px 0px;
+    }
+     .fbOrderDrinks p{
+         font-size: var(--16);
+    }
+     .fbBeerOrderMenus .container {
+         max-width: 100%;
+    }
+     .fbOrderDrinks>.row {
+         margin: 0;
+    }
+     .FoodBeerDetailsHere .fbLeftData {
+         padding: 0px 0px 0px;
+    }
+     .fbHomeBanner .carousel-inner .carousel-item img {
+         height: 350px;
+    }
+     .TableTwo tr th {
+         padding: 20px 7px;
+    }
+     .fbDevourTaste p {
+         text-transform: capitalize;
+    }
+     .fbLocateCenter {
+         margin: 0% auto 0;
+    }
+     .HideOnMobile .fbLocateCenter .form-group input,.HideOnMobile .fbNearLocate,.HideOnMobile .fbDevourTaste,.HideOnMobile .fbLocateCenter .form-group select{
+         display: none;
+    }
+     section#fbFindLocation {
+         min-height: auto;
+         background-image: none !important;
+    }
+     .ScrollDOwn {
+         position: absolute;
+         right: 0;
+         left: 0;
+         top: 30px;
+    }
+     .fbOrderNowOnline .fbBestPlacer .onOrder.onOrder2,.MobileOrderMenu .onOrder2 {
+         min-width: auto;
+         padding: 7px 25px;
+         text-transform: capitalize;
+         font-weight: 600;
+    }
+     .PrimePlacesDetails h5{
+         font-size: var(--18);
+    }
+     /*footer#fbBeerFooter {
+         background-image: url(../images/pattren2.png) !important;
+         background-size: 100%;
+         background-position: center;
+         padding: 0px 0px 40px !important;
+    }*/
+    footer#fbBeerFooter {
+    background-size: 200%;
+    background-position: 2% 50%;
+    padding: 0px 0px 81px !important;
+}
+     footer#fbBeerFooter .HeadingText {
+         padding-bottom: 200px;
+    }
+     section#IndulgeFood {
+         background-image: unset !important;
+         padding-bottom: 50px !important;
+    }
+     .clGetYoursNow {
+         padding-top: 40px !important;
+    }
+     .fbTasteBest .onOrder {
+         display: none !important;
+    }
+     .fbTasteBest .priceCount span {
+         position: absolute;
+         right: 0px;
+         bottom: -5px;
+         height: 31px;
+         padding: 7px 10px;
+         background: var(--yellow);
+    }
+     .fbShareLists {
+         display: block;
+         padding: 40px 20px;
+    }
+     .onOrder {
+         padding: 5px 10px 4px !important;
+         min-width: 150px;
+    }
+     .fbShareLists a {
+         padding: 5px 5px 15px;
+    }
+     .OrderModalInside .OrderShowModal .modal-content {
+         min-width: 100%;
+    }
+     .modal-body .PassportDetails {
+         padding: 20px 20px 0;
+    }
+     .modal-body .clGetYoursNow {
+         padding-top: 20px !important;
+    }
+     .modal-body.myorderModal {
+         padding: 15px 5px;
+    }
+     .cnfrmData {
+         max-width: 380px !important;
+    }
+     .navBarInMobile {
+         padding: 8px 10px;
+    }
+     .navBarInMobile a.nav-link {
+         font-size: 11px;
+    }
+    /* .instaFeedDetails .fbTasteBest img {
+         max-height: 300px;
+         min-height: 300px;
+    }*/
+    .fbFoodLists.gallery a.big {
+    width: 47%;
+}
+.HoverToolTip p {
+    right: -100px;
+}
+.HoverToolTip p:before {
+    right: unset;
+    left: 42px;
+}
+.fbBeerPassport .col-md-4 .fbFtrImage img {
+    max-width: 170px;
+}
+.fbBeerPassport .fbFtrImage {
+    bottom: 375px;
+    right: 10px;
+}
+.gotoWhatsapp li a {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.gotoWhatsapp li span {
+    font-size: 9px;
+    line-height: 12px;
+}
+.DrinkBrad li{
+    font-size: 13px;
+}
+.DrinkBrad li {
+    padding-right: 10px;
+}
+.DrinkBrad li:last-child{
+padding-right: 0px !important;
+}
+.offerCode {
+    font-size: 10px;
+    top: -42px;
+    text-align: center;
+}
+.drinkBradcrump {
+    padding-bottom: 15px;
+}
+}
+ @media(max-width: 440px){
+     .cnfrmData {
+         max-width: 300px !important;
+    }
+     /*.instaFeedDetails .fbTasteBest img {
+         max-height: 280px;
+         min-height: 280px;
+    }*/
+}
+ @media(max-width: 350px){
+     .cnfrmData {
+         max-width: 270px !important;
+    }
+}
+ @media(max-width: 375px){
+     .GlassList li {
+         width: 80px;
+    }
+     .FoodBeerDetailsHere .fbMiddleData img {
+         max-height: 250px;
+    }
+    .gotoWhatsapp li span {
+    font-size: 8px;
+}
+}
+ 

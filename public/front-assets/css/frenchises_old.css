@@ -1,0 +1,301 @@
+:root {
+    --white : white;
+    --blue:#0a2240;
+    --s23:23px;
+    --s32:30px;
+    --s35:35px;
+    --s22:22px;
+    --s18:18px;
+    --s16:16px;
+    --s14:14px;
+}
+body{
+    background-color: #0a2240;
+    font-family: 'Montserrat', sans-serif;
+}
+.logobottomText p {
+    color: var(--white);
+    font-size: var(--s22);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.brewcafe_logo {
+    text-align: center;
+    padding: 150px 0;
+}
+.logoImg img{
+    width: 60%;
+}
+.logobottomText {
+    max-width: 350px;
+    margin: 0 auto;
+    line-height: 33px;
+    position: relative;
+    top: -22px;
+    left: 34px;
+}
+.aboutSection_left{
+    color: var(--white);
+}
+.right_imig img {
+    width: 100%;
+    height: auto;
+}
+.aboutSection_left{
+    margin: 0 0 0 auto;
+    text-align: justify;
+}
+.aboutSection_left p {
+    margin: 55px 0 0 0;
+    line-height: 38px;
+}
+.aboutSection_left h5{
+    text-align: left;
+    text-indent: 30px;
+}
+.aboutHeading h3{
+}
+.head5 {
+    color: var(--white);
+    font-size: var(--s22);
+    font-weight: 700;
+}
+.head3{
+    color: var(--white);
+    font-size: var(--s32);
+    font-weight: 700;
+}
+.para {
+    font-size: var(--s18);
+    font-weight: 500;
+    color: var(--white);
+}
+.aboutimgText {
+    max-width: 270px;
+    margin: 15px auto 0;
+    font-size: var(--s18);
+}
+.aboutimgText p{
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.aboutSection{
+    width:90%;
+    margin: 0 auto;
+}
+.offeringBoximg img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+.offeringBoxText {
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.offeringHeading{
+    padding-bottom: 90px;
+}
+.ouroffering,.ourvalue,.keyfunction{
+    padding: 70px 0;
+}
+.firstTextbox{
+    width: 90%;
+    margin: 0 auto;
+}
+.secondImgbox img{
+    width: 100%;
+}
+.thirdTextbox span{
+    color: var(--white);
+}
+.thirdTextbox {
+    border: 6px dashed orange;
+    width: 250px;
+    margin: 0 auto;
+    padding: 30px 15px;
+    height: 200px;
+}
+.keyfunctionlist ul{
+    padding-left: 17px;
+}
+.keyfunctionHeading span {
+    color: var(--white);
+    font-size: var(--s16);
+}
+.keyfunctionlist span {
+    font-weight: 700;
+    color: var(--white);
+    font-size: var(--s16);
+}
+
+.keyfunctionlist li{
+    color: var(--white);
+    padding-left:20px;
+    font-size: var(--s14);
+}
+.keyfunctionListPart{
+    border: 1px orange dashed;
+    padding: 20px;
+}
+.contactNo a, .emailid a {
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 500;
+}
+.contactSection{
+    padding: 80px 0 120px;
+    text-align: center;
+}
+.contactUs h1 {
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+@media (max-width: 991px){
+    .logobottomText {
+        max-width: 250px;
+        margin: -12px auto 0;
+   }
+    .logobottomText p {
+        font-size: 15px;
+   }
+    .right_imig{
+        width: 60%;
+        margin: 0 auto;
+   }
+    .aboutSection {
+        width: 100%;
+   }
+    .aboutSection_left h5 {
+        text-indent: 0;
+   }
+   .contactUs h1 {
+    font-size: 34px !important;
+}
+.contactNo a, .emailid a {
+    font-size: 28px;
+}
+}
+@media (max-width: 767px){
+    :root {
+        --s32:25px;
+        --s30:23px;
+        --s23:20px;
+        --s22:19px;
+        --s18:16px;
+        --s16:14px;
+        --s14:13px;
+   }
+    .logobottomText {
+        max-width: 185px;
+        margin: -6px auto 0;
+        line-height: 18px;
+   }
+    .logobottomText p {
+        font-size: 11px;
+   }
+    .brewcafe_logo {
+        padding: 90px 0;
+   }
+    .aboutSection_left p {
+        margin: 35px 0 0 0;
+        line-height: 24px;
+   }
+    .right_imig {
+        width: 85%;
+   }
+   .firstTextbox {
+        width: 80%;
+    }
+    .secondImgbox{
+        width: 80%;
+        margin: 0 auto;
+   }
+    .thirdTextbox {
+        width: 50%;
+   }
+  .ouroffering, .ourvalue, .keyfunction {
+    padding: 20px 0;
+}
+      .logobottomText {
+    max-width: 220px;
+    margin: 0 auto 0;
+    line-height: 13px;
+}
+  .logobottomText p {
+    font-size: 14px;
+}
+  .brewcafe_logo {
+    padding: 0px 0 50px;
+}
+    .aboutSection {
+        width: 90%;
+   }
+   .logoImg img {
+    width: 90%;
+}
+
+.logobottomText {
+    top: -12px;
+}
+.offeringHeading {
+    padding-bottom: 20px;
+}
+.aboutSection_left{
+    text-align: left;
+}
+}
+
+@media (max-width: 575px){
+   .thirdTextbox {
+    max-width: 236px;
+    width: auto;
+}
+    .firstTextbox {
+        max-width: 271px;
+        width: auto;
+   }
+    :root {
+        --s32:20px;
+        --s30:17px;
+   }
+.offeringBoximg img {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+}
+    .contactSection {
+        padding: 50px 0 120px;
+   }
+   .contactUs h1 {
+    font-size: 30px;
+}
+.contactNo a, .emailid a {
+    font-size: 20px;
+}
+.logobottomText {
+    top: -5px;
+    left: 14px;
+}
+
+}
+
+@media (max-width: 400px){
+    .contactUs h1 {
+        font-size: 25px;
+    }
+    .contactNo a, .emailid a {
+    font-size: 16px;
+}
+.logobottomText {
+    top: 12px;
+}
+.logobottomText p {
+    font-size: 10px;
+}
+.logobottomText {
+    left: 0;
+}
